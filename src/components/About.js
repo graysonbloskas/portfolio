@@ -25,12 +25,12 @@ export default function About() {
 
     return (
         <main className="relative">
-            <img src={background} alt="city skyline" className="absolute w-full" />
+            <img src={background} alt="city skyline" className="absolute w-full h-auto absolute object-cover w-full h-full opacity-75" />
             <div className="p-10 lg:pt-48 container mx-auto relative">
                 <section className="bg-gray-800 rounded-lg shadow-2xl lg:flex p-20 opacity-90">
-                    <img src={urlFor(author.authorImage).url()} className="rounded w-32 h-32 lg:w-64 h-64 mr-8 opacity-100" alt={author.name} />
+                    <img src={urlFor(author.authorImage).url()} className="rounded w-64 lg:w-64 h-64 mr-8 opacity-100" alt={author.name} />
                     <div className="text-lg flex flex-col justify-center">
-                        <h1 className="cursive text-6xl text-gray-300 mb-4">Hi! I'm{' '}
+                        <h1 className="cursive text-6xl text-gray-300 mb-4 mt-6">Hi! I'm{' '}
                         <span className="text-green-100">{author.name}</span>
                         </h1>
                         <div className="prose lg:prose-xl text-white">
