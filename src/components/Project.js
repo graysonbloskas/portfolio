@@ -28,7 +28,7 @@ export default function Project() {
                     {projectData && projectData.map((project, index) => (
                     <article className="relative rounded-lg shadow-xl bg-white p-16">
                         <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
-                            <a href={project.linkls} target="_blank">
+                            <a href={project.linkls} target="_blank" rel="noopener noreferrer">
                             <img src={project.image} className="mb-4" /> </a>
                             <a
                             href={project.linkls}
