@@ -16,6 +16,14 @@ export default {
             type: 'string',
         },
         {
+            name: 'image',
+            title: 'Image',
+            type: 'image',
+            options: {
+              hotspot: true,
+            },
+          },
+        {
             name: 'description',
             type: 'text',
         },
@@ -32,7 +40,11 @@ export default {
             },
         },
         {
-            name: 'link',
+            name: 'linkgh',
+            type: 'url',
+        },
+        {
+            name: 'linkls',
             type: 'url',
         },
         {
