@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { SocialIcon } from 'react-social-icons';
-import Pdf from '../../src/J.Grayson_Bloskas_Resume_21.pdf';
+import Pdf from '../../src/J.Grayson_Bloskas_Resume_2021.pdf';
 
 export default function Navbar() {
   return (
