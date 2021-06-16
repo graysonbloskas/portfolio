@@ -37,7 +37,7 @@ export default function Project() {
                             rel="noopener noreferrer"
                             >{project.title}</a>
                         </h3>
-                        <p className="mb-4">Click to Image visit live site</p>
+                        <p className="mb-4">Click Image to visit live site</p>
                         <div className="text-gray-500 text-xs space-x-4">
                             <span>
                                 <strong className="font-bold">Finished On</strong>:{" "}
